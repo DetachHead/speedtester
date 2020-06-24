@@ -14,7 +14,7 @@ yes this is actually a thing ISP's do. if you think your speedtest results don't
     "frequency": 500    //frequency of downloads in ms
   }
   ```
-2. open a terminal and run `deno run --allow-net`
+2. open a terminal and run `deno run main.ts --allow-net`
 
 ## disclaimer
 this stopped happening to me a while ago so i can't really show any evidence of it working but i figured i should put it up on here in case it helps somebody else.
