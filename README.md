@@ -6,16 +6,15 @@ yes this is actually a thing ISP's do. if you think your speedtest results don't
 ![](https://i.imgur.com/zIYXmmL.png)
 
 ## how to use
-1. make a `settings.json` in the same folder as main.js with the following:
-  ```jsonc
+1. Configure the `settings.ts` file with the following:
+  ```ts
   {
     "location": "syd",  //speedtest.net server location (i've only tested this with regions in australia)
     "size": 10000,      //size of downloads in bytes
     "frequency": 500    //frequency of downloads in ms
   }
   ```
-2. open cmd and run `npm install`
-3. run `node main`
+2. open a terminal and run `deno run --allow-net`
 
 ## disclaimer
 this stopped happening to me a while ago so i can't really show any evidence of it working but i figured i should put it up on here in case it helps somebody else.
