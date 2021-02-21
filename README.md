@@ -6,7 +6,8 @@ yes this is actually a thing ISP's do. if you think your speedtest results don't
 ![](https://i.imgur.com/zIYXmmL.png)
 
 ## how to use
-1. Configure the `settings.ts` file with the following:
+1. install [deno](https://deno.land/)
+2. Configure the `settings.ts` file with the following:
   ```ts
   export default {
     "location": "syd",  //speedtest.net server location (i've only tested this with regions in australia)
