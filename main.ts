@@ -1,7 +1,7 @@
 import { default as settings } from "./settings.ts";
 
 const url =
-  `https://speedtest-${settings.location}.vocus.net:8080/download?&size=${settings.size}`;
+  `http://speedtest-${settings.location}.vocus.net:8080/download?&size=${settings.size}`;
 console.log("starting infinite speedtest at " + url);
 let i = 1;
 setInterval(async () => {
