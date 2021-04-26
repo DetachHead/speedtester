@@ -6,7 +6,7 @@ yes this is actually a thing ISP's do. if you think your speedtest results don't
 ![](https://i.imgur.com/zIYXmmL.png)
 
 ## how to use
-1. install [deno](https://deno.land/)
+1. install [deno](https://deno.land/) (or use the Dockerfile)
 2. Configure the `settings.ts` file with the following:
   ```ts
   export default {
